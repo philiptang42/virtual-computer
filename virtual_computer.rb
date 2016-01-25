@@ -3,5 +3,9 @@ class Computer
     @username = username
     @password = password
     @files = {}
+    @@users[username] = password
   end
+
+  @@users = {}
+  
 end
