@@ -14,4 +14,8 @@ class Computer
     puts "#{files[filename]} was added at #{time}."
   end
 
+  def Computer.get_users
+    return @@users
+  end
+
 end
