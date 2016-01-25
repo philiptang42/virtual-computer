@@ -7,5 +7,11 @@ class Computer
   end
 
   @@users = {}
-  
+
+  def create(filename)
+    time = Time.now
+    @files[filename] = time
+    puts "#{files[filename]} was added at #{time}."
+  end
+
 end
