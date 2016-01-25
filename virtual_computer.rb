@@ -19,3 +19,5 @@ class Computer
   end
 
 end
+
+my_computer = Computer.new('kek', 123)
